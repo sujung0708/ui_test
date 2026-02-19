@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Section01 from './components/sections/section-01';
+import Section02 from './components/sections/section-02';
 
 /** App 컴포넌트 - UI 요소 섹션 목록을 순차적으로 렌더링하는 메인 레이아웃 */
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Divider sx={{ mb: 6 }} />
 
         <Section01 />
+        <Section02 />
 
       </Container>
     </Box>
